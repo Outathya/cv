@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Contact details</h1>
+    <form action="mailto:outathya@gmail.com" method = "post" enctype="text/plain">
+        <fieldset>
+            <legend>Peronalia</legend>
+            <table cellspacing = "10">
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" id = "m" name = "Your gender ">
+                        <label for = "m" >Male</label>
+                    </td>
+                    <td>
+                        <input type="radio" id = "f" name = "Your gender ">
+                        <label for = "f" >Female</label>    
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="d">Date</label></td>
+                    <td><input type="date" id="d" name="Date "></td>
+                </tr>
+                <tr>
+                        <td><label for = "skl">Choose a skill</label></td>
+                        <td><select name="Your skill" id="skl">
+                            <option value="item1" >Js</option>
+                            <option value="item2">Css</option>
+                            <option value="item3">MongoDB</option>
+                            <option value="item4">Html</option>
+                            </select>
+                        </td>
+                </tr>
+                <tr>
+                    <td><label for="Color">Choose a color </label></td>
+                    <td>
+                        <input type = "color" id = "Color" name="Your color">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for = "eml">Enter your email</label></td>
+                    <td><input type = "email" id = "eml" name="Your email id "></td>
+                </tr>
+                <tr>
+                    <td><label for = "Txt">Enter message</label>
+                    </td>
+                    <td>
+                        <textarea name="You wrote" id="Txt" cols="30" rows="2" placeholder="Write here"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button>Submit</button>
+                    </td>
+                </tr>
+            </table>
+            
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
